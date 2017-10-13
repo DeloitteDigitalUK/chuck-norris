@@ -1,0 +1,9 @@
+.jokes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.jokes__header {
+    width: 60%;
+}

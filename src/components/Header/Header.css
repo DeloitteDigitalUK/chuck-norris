@@ -1,0 +1,14 @@
+.header {
+  background-color: #222;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.header__logo {
+  height: 150px;
+  padding: 25px;
+  background-image: url('./redux-observable.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}

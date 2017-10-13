@@ -1,0 +1,37 @@
+.search {
+    padding: 20px;
+}
+
+.search__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__container label {
+    display: block;
+    color: #969696;
+}
+
+.search__container input[type="search"] {
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+    width: 50%;
+    font-size: 24px;
+}
+.search__container input[type="search"]:focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }

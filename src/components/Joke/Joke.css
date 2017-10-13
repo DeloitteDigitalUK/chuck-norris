@@ -1,0 +1,11 @@
+.joke {
+  width: 60%;
+  background: #fff;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 6px -6px #999;
+  line-height: 150%;
+}
